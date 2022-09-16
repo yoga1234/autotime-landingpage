@@ -1,15 +1,61 @@
 {
   "carList": {
-    "ferrari": {},
-    "porsche": {},
-    "lamborghini": {},
-    "mercedes": {},
-    "audi": {}
+    "ferrari": {
+      "name": "Ferrari",
+      "description": "Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 from the Alfa Romeo racing division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947.",
+      "imgName": "FerrariList"
+    },
+    "porsche": {
+      "name": "Porsche",
+      "description": "German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans, headquartered in Stuttgart, Baden-Württemberg, Germany. ",
+      "imgName": "PorscheList"
+    },
+    "lamborghini": {
+      "name": "Lamborghini",
+      "description": "Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.",
+      "imgName": "LamborghiniList"
+    },
+    "mercedes": {
+      "name": "Mercedes",
+      "description": "German luxury and commercial vehicle automotive brand established in 1926. Mercedes-Benz AG is headquartered in Stuttgart, Baden-Württemberg, Germany.",
+      "imgName": "MercedesList"
+    },
+    "audi": {
+      "name": "Audi",
+      "description": "is a German automotive manufacturer of luxury vehicles headquartered in Ingolstadt, Bavaria, Germany. As a subsidiary of its parent company, the Volkswagen Group, Audi produces vehicles in nine production facilities worldwide.",
+      "imgName": "AudiList"
+    }
   },
   "bestLineup": {
-    "ferrari": {},
-    "porsche": {},
-    "lamborghini": {},
-    "audi": {}
+    "ferrari": {
+      "name": "Ferrari",
+      "type": "LaFerrari",
+      "description": "LaFerrari, project name F150[4] is a limited production mid-engine mild hybrid sports car built by Italian automotive manufacturer Ferrari",
+      "imgName": "FerrariBest"
+    },
+    "porsche": {
+      "name": "Porsche",
+      "type": "Panamera",
+      "description": "The Porsche Panamera is a mid/full-sized luxury car (E-segment/F-segment in Europe) manufactured by the German automobile manufacturer Porsche.",
+      "imgName": "PorscheBest"
+    },
+    "lamborghini": {
+      "name": "Lamborghini",
+      "type": "Huracán",
+      "description": "The Lamborghini Huracán is a sports car manufactured by Italian automotive manufacturer Lamborghini replacing the previous V10 offering, the Gallardo.",
+      "imgName": "LamborghiniBest"
+    },
+    "mercedes": {
+      "name": "Mercedes",
+      "type": "AMG GT R",
+      "description": "The Mercedes-AMG GT (C190 / R190) is a grand tourer produced in coupé and roadster bodystyles by German automobile manufacturer Mercedes-AMG.",
+      "imgName": "MercedesBest"
+    },
+    "audi": {
+      "name": "Audi",
+      "type": "R8",
+      "description": "The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel drive system. introduced by Audi AG in 2006.",
+      "imgName": "AudiBest"
+    }
   }
 }
