@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.navbar-container .left {
+  font-family: var(--font-main);
+  font-size: 28px;
+  font-weight: 600;
+}
+.navbar-container .middle ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.navbar-container .middle ul li {
+  list-style: none;
+  font-family: var(--font-main);
+}
+.navbar-container .right button {
+  font-family: var(--font-main);
+  padding: 16px 32px 16px 32px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 700;
+}
