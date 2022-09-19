@@ -5,26 +5,30 @@
   margin-top: 30px;
   padding-left: 80px;
   padding-right: 80px;
+  position: relative;
+  z-index: 9;
 }
 .navbar-container .left {
   font-family: var(--font-main);
   font-size: 28px;
   font-weight: 600;
+  color: var(--color-white);
 }
 .navbar-container .middle ul {
   display: flex;
   flex-direction: row;
   column-gap: 80px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 0;
 }
 .navbar-container .middle ul li {
   list-style: none;
   font-family: var(--font-main);
+  color: var(--color-white);
 }
 .navbar-container .right button {
   font-family: var(--font-main);
-  padding: 16px 32px 16px 32px;
+  padding: 16px 34px 16px 34px;
   border: none;
   border-radius: 10px;
   background-color: var(--color-blue);
