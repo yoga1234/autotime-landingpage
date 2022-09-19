@@ -11,11 +11,11 @@ import porscheList from "./list/porsche.png";
 import blog1 from "./blog-1.png";
 import blog2 from "./blog-2.png";
 import blog3 from "./blog-3.png";
-import Hero from "./hero.png";
+import heroImage from "./hero.png";
 import specialOrder from "./special-order.png";
 
 export {
-  Hero,
+  heroImage,
   blog1,
   blog2,
   blog3,
