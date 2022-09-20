@@ -13,7 +13,7 @@
 .hero-text {
   position: relative;
   top: -650px;
-  margin-bottom: -650px;
+  margin-bottom: -400px;
 }
 .hero-text h1 {
   font-family: var(--font-main);

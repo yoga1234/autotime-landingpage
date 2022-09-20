@@ -1,0 +1,18 @@
+.theorigin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 50px;
+}
+.theorigin-container .left h2 {
+  font-size: 52px;
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+}
+.theorigin-container .right p {
+  font-family: var(--font-main);
+  width: 720px;
+  color: var(--color-black-75);
+  line-height: 1.5;
+}
