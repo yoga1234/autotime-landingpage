@@ -1,15 +1,23 @@
 import React from "react";
 import "./ListCar.css";
 
+import { dummyList } from "../../assets";
+
 const ListCar = () => {
   return (
     <div className="listcar-container">
       <div className="left">
-        <p>Ferrari</p>
-        <p>Porsche</p>
-        <p>Lamborghini</p>
-        <p>Mercedes</p>
-        <p>Audi</p>
+        <div>
+          <p>Ferrari</p>
+          <hr className="list-border" />
+          <p>Porsche</p>
+          <hr className="list-border" />
+          <p>Lamborghini</p>
+          <hr className="list-border" />
+          <p>Mercedes</p>
+          <hr className="list-border" />
+          <p>Audi</p>
+        </div>
       </div>
       <div className="middle">
         <h3>Ferrari</h3>
@@ -21,7 +29,7 @@ const ListCar = () => {
         </p>
       </div>
       <div className="right">
-        <p>here it is</p>
+        <img src={dummyList} alt="" />
       </div>
     </div>
   );

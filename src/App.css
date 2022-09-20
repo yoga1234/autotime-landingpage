@@ -13,6 +13,8 @@
   --color-blue: #20b3cb;
   --color-black: #0f1012;
   --color-black-75: rgba(15, 16, 18, 0.75);
-  --color-black-50: rgba(15, 16, 18, 50);
+  --color-black-50: rgba(15, 16, 18, 0.5);
+  --color-black-10: rgba(15, 16, 18, 0.1);
+
   --color-white: #fff;
 }
