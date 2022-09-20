@@ -1,3 +1,8 @@
+import dummyBlogBig from "./dummy/dummyBlogBig.png";
+import dummyBlogMini from "./dummy/dummyBlogMini.png";
+import dummyLineup from "./dummy/dummyLineup.png";
+import dummyList from "./dummy/dummyList.png";
+import dummySpecialOrder from "./dummy/dummySpecialOrder.png";
 import audiLineup from "./lineup/audi.png";
 import ferrariLineup from "./lineup/ferrari.png";
 import lamborghiniLineup from "./lineup/lamborghini.png";
@@ -30,4 +35,9 @@ export {
   lamborghiniList,
   mercedesList,
   porscheList,
+  dummyBlogBig,
+  dummyBlogMini,
+  dummyLineup,
+  dummyList,
+  dummySpecialOrder,
 };
