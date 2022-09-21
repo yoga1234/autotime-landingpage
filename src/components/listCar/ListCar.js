@@ -1,14 +1,15 @@
 import React from "react";
 import "./ListCar.css";
 
-import { dummyList } from "../../assets";
+import { ferrariList } from "../../assets";
+// dummyList
 
 const ListCar = () => {
   return (
     <div className="listcar-container">
       <div className="left">
         <div>
-          <p>Ferrari</p>
+          <p className="active">Ferrari</p>
           <hr className="list-border" />
           <p>Porsche</p>
           <hr className="list-border" />
@@ -27,9 +28,10 @@ const ListCar = () => {
           Auto Avio Costruzioni, the company built its first car in 1940, and
           produced its first Ferrari-badged car in 1947.
         </p>
+        <button>Get A Car</button>
       </div>
       <div className="right">
-        <img src={dummyList} alt="" />
+        <img src={ferrariList} alt="" />
       </div>
     </div>
   );

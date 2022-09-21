@@ -19,6 +19,10 @@
   padding-bottom: 24px;
   width: max-content;
 }
+.listcar-container .left div p.active {
+  font-weight: 700;
+  color: var(--color-blue);
+}
 .listcar-container .left div hr.list-border {
   width: 247px;
   border-color: var(--color-black-10);
@@ -32,12 +36,23 @@
   font-family: var(--font-main);
   font-size: 38px;
   color: var(--color-black-75);
+  margin-top: 40px;
 }
 .listcar-container .middle p {
   font-family: var(--font-main);
   width: 390px;
   line-height: 1.75;
   margin-top: 20px;
+}
+.listcar-container .middle button {
+  font-family: var(--font-main);
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 80px;
+  padding: 16px 96px 16px 96px;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-blue);
 }
 .listcar-container .right {
   flex-grow: 1;
