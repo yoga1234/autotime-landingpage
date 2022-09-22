@@ -1,5 +1,5 @@
 import "./App.css";
-import { Hero, ListCar, Navbar, TheOrigin } from "./components";
+import { Hero, LineupCar, ListCar, Navbar, TheOrigin } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Hero />
       <TheOrigin />
       <ListCar />
+      <LineupCar />
     </div>
   );
 }
