@@ -1,15 +1,16 @@
 import React from "react";
 import "./LineupCar.css";
-import { dummyLineup } from "../../assets";
+// import { dummyLineup } from "../../assets";
+import { ferrariLineup } from "../../assets";
 
 const LineupCar = () => {
   return (
     <div className="lineup-container">
-      <h2>Our Best Lineup</h2>
+      <h2 className="lineup-title">Our Best Lineup</h2>
       <div className="lineup-content">
         <div className="top">
           <div className="left">
-            <img src={dummyLineup} alt="" />
+            <img src={ferrariLineup} alt="" />
           </div>
           <div className="right">
             <h3 className="lineup-car-name">Ferrari</h3>
@@ -20,12 +21,12 @@ const LineupCar = () => {
               Ferrari
             </p>
             <button className="lineup-see-more">See More</button>
-            <hr />
+            <hr className="lineup-break" />
           </div>
         </div>
         <div className="bottom">
           <ul>
-            <li>Ferrari</li>
+            <li className="active">Ferrari</li>
             <li>Porsche</li>
             <li>Lamborghini</li>
             <li>Mercedes</li>

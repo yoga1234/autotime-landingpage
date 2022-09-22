@@ -1,0 +1,71 @@
+.lineup-title {
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+  font-size: 48px;
+  margin-top: 120px;
+  margin-left: 60px;
+}
+.lineup-content .top {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.lineup-content .top .left img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+.lineup-car-name {
+  font-size: 52px;
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+}
+.lineup-car-type {
+  font-size: 28px;
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+  margin-top: 8px;
+}
+.lineup-car-desc {
+  font-size: 20px;
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+  width: 600px;
+  margin-top: 32px;
+  line-height: 1.8;
+}
+.lineup-see-more {
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--color-white);
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 28px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 40px;
+  width: 600px;
+}
+.lineup-break {
+  margin-top: 40px;
+  border-color: var(--color-black-10);
+}
+.lineup-content .bottom ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+.lineup-content .bottom ul li {
+  list-style: none;
+  font-family: var(--font-main);
+  font-size: 28px;
+}
+.lineup-content .bottom ul li.active {
+  font-weight: 700;
+  color: var(--color-blue);
+}
