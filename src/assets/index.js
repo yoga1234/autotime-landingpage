@@ -17,14 +17,14 @@ import blog1 from "./blog-1.png";
 import blog2 from "./blog-2.png";
 import blog3 from "./blog-3.png";
 import heroImage from "./hero.png";
-import specialOrder from "./special-order.png";
+import specialOrderHero from "./special-order.png";
 
 export {
   heroImage,
   blog1,
   blog2,
   blog3,
-  specialOrder,
+  specialOrderHero,
   audiLineup,
   ferrariLineup,
   lamborghiniLineup,
