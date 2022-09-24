@@ -24,6 +24,7 @@ const SpecialOrder = () => {
           <button>Order Now</button>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

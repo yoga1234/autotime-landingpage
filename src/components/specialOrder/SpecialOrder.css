@@ -30,3 +30,37 @@
   background-color: var(--color-blue);
   border: none;
 }
+.specialorder-container .bottom {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-top: 80px;
+}
+.specialorder-container .bottom h3 {
+  font-family: var(--font-main);
+  font-size: 80px;
+  width: 400px;
+  text-align: right;
+  color: var(--color-black-75);
+}
+.specialorder-container .bottom div p {
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+  font-size: 32px;
+  width: 700px;
+}
+.specialorder-container .bottom div button {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 20px 220px 20px 220px;
+  border: none;
+  font-family: var(--font-main);
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.specialorder-container hr {
+  margin-top: 80px;
+  color: #000;
+  width: 1200px;
+}
