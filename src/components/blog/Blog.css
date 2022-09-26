@@ -2,24 +2,34 @@
   font-size: 48px;
   font-family: var(--font-main);
   color: var(--color-black-75);
+  margin-top: 80px;
+  margin-left: 116px;
 }
 .blog-content {
   display: flex;
   flex-direction: row;
+  column-gap: 72px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
 }
 .mini-blog {
   flex-grow: 1;
+  max-width: 524px;
 }
 .mini-blog img {
   width: 520px;
 }
+
 .mini-blog h3,
 .full-blog h3 {
   font-family: var(--font-main);
   font-size: 36px;
   font-weight: 300;
   color: var(--color-black-75);
+  width: max-content;
+  margin-top: 20px;
 }
 .mini-blog button,
 .full-blog button {
@@ -27,10 +37,25 @@
   font-size: 20px;
   background-color: transparent;
   color: var(--color-blue);
+  margin-top: 12px;
+}
+.mini-blog hr {
+  width: 520px;
+  border-width: 2px;
+  border-color: var(--color-black-10);
+  margin-top: 20px;
 }
 .full-blog {
   flex-grow: 2;
+  margin-top: 40px;
+  max-width: 1120px;
 }
 .full-blog img {
   width: 1120px;
+}
+.full-blog hr {
+  width: 1120px;
+  border-width: 2px;
+  border-color: var(--color-black-10);
+  margin-top: 20px;
 }
