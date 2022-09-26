@@ -43,7 +43,7 @@
   width: 520px;
   border-width: 2px;
   border-color: var(--color-black-10);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .full-blog {
   flex-grow: 2;
@@ -57,5 +57,5 @@
   width: 1120px;
   border-width: 2px;
   border-color: var(--color-black-10);
-  margin-top: 20px;
+  margin-top: 40px;
 }

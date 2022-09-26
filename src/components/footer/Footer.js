@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="subscribe">
         <h3>Don't Miss Out</h3>
         <p>Sign up for the latest car release and updates</p>
-        <input type="text" />
+        <input type="text" placeholder="Enter your email address" />
         <button>SIGN UP</button>
       </div>
       <div className="overview">

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
@@ -11,6 +11,7 @@
   --font-sub: "Open Sans", sans-serif;
   /* colors */
   --color-blue: #20b3cb;
+  --color-light-blue: #ebf2f3;
   --color-black: #0f1012;
   --color-black-75: rgba(15, 16, 18, 0.75);
   --color-black-50: rgba(15, 16, 18, 0.5);
