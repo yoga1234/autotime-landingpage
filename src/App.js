@@ -1,6 +1,7 @@
 import "./App.css";
 import {
   Blog,
+  Footer,
   Hero,
   LineupCar,
   ListCar,
@@ -19,6 +20,7 @@ function App() {
       <LineupCar />
       <SpecialOrder />
       <Blog />
+      <Footer />
     </div>
   );
 }
