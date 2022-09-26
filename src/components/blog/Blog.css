@@ -1,0 +1,36 @@
+.blog-title {
+  font-size: 48px;
+  font-family: var(--font-main);
+  color: var(--color-black-75);
+}
+.blog-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mini-blog {
+  flex-grow: 1;
+}
+.mini-blog img {
+  width: 520px;
+}
+.mini-blog h3,
+.full-blog h3 {
+  font-family: var(--font-main);
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--color-black-75);
+}
+.mini-blog button,
+.full-blog button {
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: var(--color-blue);
+}
+.full-blog {
+  flex-grow: 2;
+}
+.full-blog img {
+  width: 1120px;
+}
