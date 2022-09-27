@@ -37,9 +37,15 @@
   font-weight: bold;
   display: block;
   border-radius: 10px;
-  border: none;
+  border: 5px solid var(--color-blue);
   background-color: var(--color-blue);
   color: var(--color-white);
   margin: 50px auto 0 auto;
-  padding: 16px 34px 16px 34px;
+  padding: 13px 35px 13px 35px;
+  transition: all 0.25s ease;
+}
+.hero-text button:hover {
+  cursor: pointer;
+  background-color: var(--color-white);
+  color: var(--color-blue);
 }
