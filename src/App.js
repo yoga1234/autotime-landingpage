@@ -10,7 +10,7 @@ import {
   TheOrigin,
 } from "./components";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
@@ -23,6 +23,20 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
+// function App() {
+//   return (
+//     <div className="App">
+//       <Navbar />
+//       <Hero />
+//       <TheOrigin />
+//       <ListCar />
+//       <LineupCar />
+//       <SpecialOrder />
+//       <Blog />
+//       <Footer />
+//     </div>
+//   );
+// }
 
 export default App;
