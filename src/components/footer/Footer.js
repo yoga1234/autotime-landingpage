@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Footer.css";
 
@@ -13,18 +14,32 @@ const Footer = () => {
       <div className="overview">
         <h4>Overview</h4>
         <ul>
-          <li>About</li>
-          <li>Carrers</li>
-          <li>Team Up</li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Carrers</a>
+          </li>
+          <li>
+            <a href="#">Team Up</a>
+          </li>
         </ul>
       </div>
       <div className="customer-service">
         <h4>Customer Service</h4>
         <ul>
-          <li>Contact Us</li>
-          <li>My Account</li>
-          <li>FAQ</li>
-          <li>Support</li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">My Account</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
         </ul>
       </div>
       <div className="company-footer">
