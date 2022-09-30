@@ -38,15 +38,21 @@
 }
 .lineup-see-more {
   background-color: var(--color-blue);
-  border: none;
+  border: 5px solid var(--color-blue);
   color: var(--color-white);
   font-family: var(--font-main);
   font-weight: 400;
   font-size: 28px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 40px;
   width: 600px;
+  transition: all 0.25s ease;
+}
+.lineup-see-more:hover {
+  cursor: pointer;
+  background-color: var(--color-white);
+  color: var(--color-blue);
 }
 .lineup-break {
   margin-top: 40px;
@@ -64,6 +70,10 @@
   list-style: none;
   font-family: var(--font-main);
   font-size: 28px;
+}
+.lineup-content .bottom ul li:hover {
+  cursor: pointer;
+  color: var(--color-blue);
 }
 .lineup-content .bottom ul li.active {
   font-weight: 700;
