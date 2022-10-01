@@ -115,7 +115,7 @@ const ListCar = () => {
       <div className="middle">
         <h3>{listcarData.carData.name}</h3>
         <p>{listcarData.carData.description}</p>
-        <button>Get A Car</button>
+        <button>Get This Car</button>
       </div>
       <div className="right">
         <img src={listcarData.activeImage} alt="" />
