@@ -27,9 +27,10 @@ const ListCar = () => {
     let carTemp = {};
     for (var key in data.carList) {
       if (key === listcarData.activeCar) {
-        carTemp.carData = data.carList[key];
+        carTemp = data.carList[key];
       }
     }
+    console.log(carTemp);
     setListcarData((prevState) => ({
       ...prevState,
       carData: carTemp,
@@ -87,13 +88,8 @@ const ListCar = () => {
         </div>
       </div>
       <div className="middle">
-        <h3>Ferrari</h3>
-        <p>
-          Italian luxury sports car manufacturer based in Maranello, Italy.
-          Founded by Enzo Ferrari in 1939 from the Alfa Romeo racing division as
-          Auto Avio Costruzioni, the company built its first car in 1940, and
-          produced its first Ferrari-badged car in 1947.
-        </p>
+        <h3>{listcarData.carData.name}</h3>
+        <p>{listcarData.carData.description}</p>
         <button>Get A Car</button>
       </div>
       <div className="right">
