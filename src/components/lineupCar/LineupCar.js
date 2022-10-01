@@ -1,6 +1,5 @@
 import React from "react";
 import "./LineupCar.css";
-// import { dummyLineup } from "../../assets";
 import { ferrariLineup } from "../../assets";
 
 const LineupCar = () => {
