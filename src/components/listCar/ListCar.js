@@ -2,7 +2,14 @@
 import React from "react";
 import "./ListCar.css";
 
-import { ferrariList } from "../../assets";
+import {
+  audiList,
+  ferrariList,
+  lamborghiniList,
+  mercedesList,
+  porscheList,
+  dummyList,
+} from "../../assets";
 import { useEffect, useState } from "react";
 import data from "../../data.json";
 
@@ -15,12 +22,30 @@ const ListCar = () => {
   const handleLineup = (car) => {
     let carTemp = {};
     carTemp.activeCar = car;
+    carTemp.activeImage = imageHandler(car);
     for (var key in data.carList) {
       if (key === car) {
         carTemp.carData = data.carList[key];
       }
     }
     setListcarData(carTemp);
+  };
+  const imageHandler = (car) => {
+    let img;
+    if (car === "audi") {
+      img = audiList;
+    } else if (car === "ferrari") {
+      img = ferrariList;
+    } else if (car === "lamborghini") {
+      img = lamborghiniList;
+    } else if (car === "mercedes") {
+      img = mercedesList;
+    } else if (car === "porsche") {
+      img = porscheList;
+    } else {
+      img = dummyList;
+    }
+    return img;
   };
 
   useEffect(() => {
@@ -30,10 +55,10 @@ const ListCar = () => {
         carTemp = data.carList[key];
       }
     }
-    console.log(carTemp);
     setListcarData((prevState) => ({
       ...prevState,
       carData: carTemp,
+      activeImage: imageHandler(listcarData.activeCar),
     }));
   }, []);
 
@@ -93,7 +118,7 @@ const ListCar = () => {
         <button>Get A Car</button>
       </div>
       <div className="right">
-        <img src={ferrariList} alt="" />
+        <img src={listcarData.activeImage} alt="" />
       </div>
     </div>
   );
