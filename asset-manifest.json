@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/autotime-landingpage/static/css/main.4eca8422.css",
+    "main.js": "/autotime-landingpage/static/js/main.ffea9559.js",
+    "static/media/special-order.png": "/autotime-landingpage/static/media/special-order.1ecd15f21e53d15a167e.png",
+    "static/media/hero.png": "/autotime-landingpage/static/media/hero.c0d7c5b1770fa270834c.png",
+    "static/media/blog-3.png": "/autotime-landingpage/static/media/blog-3.4bc8d87d2b86fe152cb5.png",
+    "static/media/lamborghini.png": "/autotime-landingpage/static/media/lamborghini.8d750ff1bdc3f8a5a6f1.png",
+    "static/media/mercedes.png": "/autotime-landingpage/static/media/mercedes.90b21315c03acedbde0b.png",
+    "static/media/audi.png": "/autotime-landingpage/static/media/audi.beabdd8b66fb1a8c4758.png",
+    "static/media/porsche.png": "/autotime-landingpage/static/media/porsche.fe99c25262d29b476b82.png",
+    "static/media/blog-2.png": "/autotime-landingpage/static/media/blog-2.bf824e5597de38d411a4.png",
+    "static/media/blog-1.png": "/autotime-landingpage/static/media/blog-1.74bf7f522aad079c7baf.png",
+    "static/media/ferrari.png": "/autotime-landingpage/static/media/ferrari.73b02a50299c0a08e3c3.png",
+    "index.html": "/autotime-landingpage/index.html",
+    "main.4eca8422.css.map": "/autotime-landingpage/static/css/main.4eca8422.css.map",
+    "main.ffea9559.js.map": "/autotime-landingpage/static/js/main.ffea9559.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eca8422.css",
+    "static/js/main.ffea9559.js"
+  ]
+}
